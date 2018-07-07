@@ -1,5 +1,5 @@
-## Papers
-### [Taskonomy: Disentangling Task Transfer Learning](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zamir_Taskonomy_Disentangling_Task_CVPR_2018_paper.pdf) by A. Zamir, A Sax, W. Shen, L. Guibas, J. Malik, S. Savarese at CVPR 2018.
+## CVPR 2018 Relevant Papers
+### [Taskonomy: Disentangling Task Transfer Learning](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zamir_Taskonomy_Disentangling_Task_CVPR_2018_paper.pdf) by A. Zamir, A Sax, W. Shen, L. Guibas, J. Malik, S. Savarese.
 #### Figure:
 ![Zamir18cvpr](figures/Zamir18cvpr.png)
 #### Abstract:
@@ -7,13 +7,13 @@ Do visual tasks have a relationship, or are they unrelated?  For instance, could
 #### Notes:
 1. See [http://taskonomy.stanford.edu/](http://taskonomy.stanford.edu/).
 
-### [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kendall_Multi-Task_Learning_Using_CVPR_2018_paper.pdf) by A. Kendall, Y. Gal, R. Cipolla at CVPR 2018.
+### [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kendall_Multi-Task_Learning_Using_CVPR_2018_paper.pdf) by A. Kendall, Y. Gal, R. Cipolla.
 #### Figure:
 ![Kendall18cvpr](figures/Kendall18cvpr.png)  
 #### Abstract:
 Numerous deep learning applications benefit from multi-task learning with multiple regression and classification objectives. In this paper we make the observation that the performance of such systems is strongly dependent on the relative weighting between each task’s loss. Tuning these weights by hand is a difficult and expensive process, making multi-task learning prohibitive in practice.  We propose a principled approach to multi-task deep learning which weighs multiple loss functions by considering the homoscedastic uncertainty of each task. This allows us to simultaneously learn various quantities with different units or scales in both classification and regression settings. We demonstrate our model learning per-pixel depth regression, semantic and instance segmentation from a monocular input image. `Perhaps surprisingly, we show our model can learn multi-task weightings and outperform separate models trained individually on each task.`
 
-### [Semi-parametric Image Synthesis](http://openaccess.thecvf.com/content_cvpr_2018/papers/Qi_Semi-Parametric_Image_Synthesis_CVPR_2018_paper.pdf) by X. Qi, Q. Chen, J. Jia, V. Koltun at CVPR 2018.
+### [Semi-parametric Image Synthesis](http://openaccess.thecvf.com/content_cvpr_2018/papers/Qi_Semi-Parametric_Image_Synthesis_CVPR_2018_paper.pdf) by X. Qi, Q. Chen, J. Jia, V. Koltun.
 #### Figure:
 ![Qi18cvpr](figures/Qi18cvpr.png)
 #### Abstract:
@@ -22,51 +22,51 @@ draws on the provided photographic material. Experiments on multiple semantic se
 #### Notes:
 1. According to the authors, the method takes 3 mins to generate 1 image. The authors' results are at the bottom of the figure, while the previous state of the art is in the middle row of the figure.
 
-### [DensePose: Dense Human Pose Estimation In The Wild](http://openaccess.thecvf.com/content_cvpr_2018/papers/Guler_DensePose_Dense_Human_CVPR_2018_paper.pdf) by R. Guler, N. Neverova, I. Kokkinos at CVPR 2018.
+### [DensePose: Dense Human Pose Estimation In The Wild](http://openaccess.thecvf.com/content_cvpr_2018/papers/Guler_DensePose_Dense_Human_CVPR_2018_paper.pdf) by R. Guler, N. Neverova, I. Kokkinos.
 #### Figure:
 ![Guler18cvpr](figures/Guler18cvpr.png)
 #### Abstract:
 In this work we `establish dense correspondences between an RGB image and a surface-based representation of the human body, a task we refer to as dense human pose estimation.` We gather dense correspondences for 50K persons appearing in the COCO dataset by introducing an efficient annotation pipeline. We then use our dataset to train CNN-based systems that deliver dense correspondence ‘in the wild’, namely in the presence of background, occlusions and scale variations. We improve our training set’s effectiveness by training an inpainting network that can fill in missing ground truth values and report improvements with respect to the best results that would be achievable in the past. We experiment with fully-convolutional networks and region-based models and observe a superiority of the latter. We further improve accuracy through cascading, obtaining a system that delivers highly-accurate results at multiple frames per second on a single GPU. Supplementary materials, data, code, and videos are provided on the project page [http://densepose.org](http://densepose.org).
 
-### [Pyramid Stereo Matching Network](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chang_Pyramid_Stereo_Matching_CVPR_2018_paper.pdf) by J.R. Chang, Y.S. Sheng at CVPR 2018.
+### [Pyramid Stereo Matching Network](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chang_Pyramid_Stereo_Matching_CVPR_2018_paper.pdf) by J.R. Chang, Y.S. Sheng.
 #### Figure:
 ![Chang18cvpr](figures/Chang18cvpr.png)
 #### Abstract:
 Recent work has shown that `depth estimation from a stereo pair of images` can be formulated as a supervised learning task to be resolved with convolutional neural networks (CNNs).  However, current architectures rely on patch-based Siamese networks, lacking the means to exploit context information for finding correspondence in ill-posed regions. To tackle this problem, we propose PSM-Net, a pyramid stereo matching network consisting of two main modules: spatial pyramid pooling and 3D CNN. The spatial pyramid pooling module takes advantage of the capacity of global context information by aggregating context in different scales and locations to form a cost volume. The 3D CNN learns to regularize cost volume using stacked multiple hourglass networks in conjunction with intermediate supervision. The proposed approach was evaluated on several benchmark datasets. `Our method ranked first in the KITTI 2012 and 2015 leaderboards before March 18, 2018.`  The codes of PSMNet are available at: [https://github.com/JiaRenChang/PSMNet](https://github.com/JiaRenChang/PSMNet).
 
-### [Zoom and Learn: Generalizing Deep Stereo Matching to Novel Domains](http://openaccess.thecvf.com/content_cvpr_2018/papers/Pang_Zoom_and_Learn_CVPR_2018_paper.pdf) by J. Pang, W. Sun, C. Yang, J. Ren, R. Xiao, J. Zeng, L. Lin at CVPR 2018.
+### [Zoom and Learn: Generalizing Deep Stereo Matching to Novel Domains](http://openaccess.thecvf.com/content_cvpr_2018/papers/Pang_Zoom_and_Learn_CVPR_2018_paper.pdf) by J. Pang, W. Sun, C. Yang, J. Ren, R. Xiao, J. Zeng, L. Lin.
 #### Figure:
 <img src="figures/Pang18cvpr.png" width="500" height="500" />
 
 #### Abstract:
 Despite the recent success of stereo matching with convolutional neural networks (CNNs), it remains `arduous to generalize a pre-trained deep stereo model to a novel domain. A major difficulty is to collect accurate ground-truth disparities for stereo pairs in the target domain. In this work, we propose a self-adaptation approach for CNN training, utilizing both synthetic training data (with ground-truth disparities) and stereo pairs in the new domain (without ground-truths).` Our method is driven by two empirical observations. By feeding real stereo pairs of different do- mains to stereo models pre-trained with synthetic data, we see that: i) a pre-trained model does not generalize well to the new domain, producing artifacts at boundaries and ill-posed regions; however, ii) feeding an up-sampled stereo pair leads to a disparity map with extra details. To avoid i) while exploiting ii), we formulate an iterative optimization problem with graph Laplacian regularization. At each iteration, the CNN adapts itself better to the new domain: we let the CNN learn its own higher-resolution output; at the meanwhile, a graph Laplacian regularization is imposed to discriminatively keep the desired edges while smoothing out the artifacts. We demonstrate the effectiveness of our method in two domains: daily scenes collected by smartphone cameras, and street views captured in a driving car.
 
-### [DeepMVS: Learning Multi-view Stereopsis](http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_DeepMVS_Learning_Multi-View_CVPR_2018_paper.pdf) by P.H. Huang, K. Matzen, J. Kopf, N. Ahuja, J.B. Huang at CVPR 2018.
+### [DeepMVS: Learning Multi-view Stereopsis](http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_DeepMVS_Learning_Multi-View_CVPR_2018_paper.pdf) by P.H. Huang, K. Matzen, J. Kopf, N. Ahuja, J.B. Huang.
 #### Figure:
 ![Huang18cvpr](figures/Huang18cvpr.png)
 #### Abstract:
 We present DeepMVS, a deep convolutional neural net- work (ConvNet) for multiview stereo reconstruction. Taking an arbitrary number of posed images as input, we first produce a set of plane-sweep volumes and use the proposed DeepMVS network to predict high-quality disparity maps. The `key contributions that enable these results are (1) supervised pretraining on a photorealistic synthetic dataset, (2) an effective method for aggregating information across a set of unordered images, and (3) integrating multi-layer feature activations from the pre-trained VGG-19 network.` We validate the efficacy of DeepMVS using the ETH3D Benchmark. Our results show that DeepMVS compares favorably against state-of-the-art conventional MVS algorithms and other ConvNet based methods, particularly for near-textureless regions and thin structures.
 
-### [Single View Stereo Matching](http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Single_View_Stereo_CVPR_2018_paper.pdf) by Y. Luo, J. Ren, M. Lin, J. Pang, W. Sun, H. Li, L. Lin at CVPR 2018.
+### [Single View Stereo Matching](http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Single_View_Stereo_CVPR_2018_paper.pdf) by Y. Luo, J. Ren, M. Lin, J. Pang, W. Sun, H. Li, L. Lin.
 #### Figure:
 <img src="figures/Luo18cvpr.png" width="600" height="400" />
 
 #### Abstract:
 Previous monocular depth estimation methods take a single view and directly regress the expected results. Though recent advances are made by applying geometrically inspired loss functions during training, the inference procedure does not explicitly impose any geometrical constraint. Therefore these models purely rely on the quality of data and the effectiveness of learning to generalize. This either leads to suboptimal results or the demand of huge amount of expensive ground truth labelled data to generate reasonable results. `In this paper, we show for the first time that the monocular depth estimation problem can be reformulated as two sub-problems, a view synthesis procedure followed by stereo matching, with two intriguing properties, namely i) geometrical constraints can be explicitly imposed during inference; ii) demand on labelled depth data can be greatly alleviated.` We show that the whole pipeline can still be trained in an end-to-end fashion and this new formulation plays a critical role in advancing the performance. The resulting model outperforms all the previous monocular depth estimation methods as well as the stereo block matching method in the challenging KITTI dataset by only using a small number of real training data. The model also generalizes well to other monocular depth estimation benchmarks. We also discuss the implications and the advantages of solving monocular depth estimation using stereo methods. Code is publicly available at [https://github.com/lawy623/SVS](https://github.com/lawy623/SVS). 
 
-### [DenseASPP for Semantic Segmentation in Street Scenes](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_DenseASPP_for_Semantic_CVPR_2018_paper.pdf) by M. Yang, K. Yu, C. Zhang, Z. Li, K. Yang at CVPR 2018.
+### [DenseASPP for Semantic Segmentation in Street Scenes](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_DenseASPP_for_Semantic_CVPR_2018_paper.pdf) by M. Yang, K. Yu, C. Zhang, Z. Li, K. Yang.
 #### Figure:
 ![Yang18cvpr](figures/Yang18cvpr.png)
 #### Abstract:
 Semantic image segmentation is a basic street scene understanding task in autonomous driving, where each pixel in a high resolution image is categorized into a set of semantic labels. Unlike other scenarios, objects in autonomous driving scene exhibit very large scale changes, which poses great challenges for high-level feature representation in a sense that multi-scale information must be correctly encoded. To remedy this problem, atrous convolution[14] was introduced to generate features with larger receptive fields without sacrificing spatial resolution.  Built upon atrous convolution, Atrous Spatial Pyramid Pooling (ASPP) was proposed to concatenate multiple atrous-convolved features using different dilation rates into a final feature representation. Although ASPP is able to generate multi-scale features, we argue the feature resolution in the scale-axis is not dense enough for the autonomous driving scenario. To this end, `we propose Densely connected Atrous Spatial Pyramid Pooling (DenseASPP), which connects a set of atrous convolutional layers in a dense way, such that it generates multi-scale features that not only cover a larger scale range, but also cover that scale range densely, without significantly increasing the model size. We evaluate DenseASPP on the street scene benchmark Cityscapes and achieve state-of-the-art performance.`
 
-### [Learning to Segment Every Thing](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Learning_to_Segment_CVPR_2018_paper.pdf) by R. Hu, P. Dollar, K. He, T. Darrell, R. Girshik at CVPR 2018.
+### [Learning to Segment Every Thing](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Learning_to_Segment_CVPR_2018_paper.pdf) by R. Hu, P. Dollar, K. He, T. Darrell, R. Girshik.
 #### Figure:
 ![Hu18cvpr](figures/Hu18cvpr.png)
 #### Abstract:
 Most methods for object instance segmentation require all training examples to be labeled with segmentation masks. This requirement makes it expensive to annotate new categories and has restricted instance segmentation models to ∼100 well-annotated classes. `The goal of this paper is to propose a new partially supervised training paradigm, together with a novel weight transfer function, that enables training instance segmentation models on a large set of categories all of which have box annotations, but only a small fraction of which have mask annotations.` These contributions allow us to train Mask R-CNN to detect and segment 3000 visual concepts using box annotations from the Visual Genome dataset and mask annotations from the 80 classes in the COCO dataset. We evaluate our approach in a controlled study on the COCO dataset.  This work is a first step towards instance segmentation models that have broad comprehension of the visual world.
 
-### [Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions](http://openaccess.thecvf.com/content_cvpr_2018/papers/Radosavovic_Data_Distillation_Towards_CVPR_2018_paper.pdf) by B. Wu, A. Wan, X. Yue, P. Jin, S. Zhao, N. Golmant, A. Gholaminejad, J. Gonzalez, K. Keutzer at CVPR 2018.
+### [Shift: A Zero FLOP, Zero Parameter Alternative to Spatial Convolutions](http://openaccess.thecvf.com/content_cvpr_2018/papers/Radosavovic_Data_Distillation_Towards_CVPR_2018_paper.pdf) by B. Wu, A. Wan, X. Yue, P. Jin, S. Zhao, N. Golmant, A. Gholaminejad, J. Gonzalez, K. Keutzer.
 #### Figure:
 <img src="figures/Wu18cvpr_1.png" width="400" height="400" />
 <img src="figures/Wu18cvpr_2.png" width="800" height="400" />
@@ -74,26 +74,31 @@ Most methods for object instance segmentation require all training examples to b
 #### Abstract:
 Neural networks rely on convolutions to aggregate spatial information. However, spatial convolutions are expensive in terms of model size and computation, both of which grow quadratically with respect to kernel size. In this paper, we present a parameter-free, FLOP-free “shift” operation as an alternative to spatial convolutions. We fuse shifts and pointwise convolutions to construct end-to-end trainable shift-based modules, with a hyperparameter characterizing the tradeoff between accuracy and efficiency. `To demonstrate the operation’s efficacy, we replace ResNet’s 3x3 convolutions with shift-based modules for improved CIFAR10 and CIFAR100 accuracy using 60% fewer parameters; we additionally demonstrate the operation’s resilience to parameter reduction on ImageNet, outperforming ResNet family members.` We finally show the shift operation’s applicability across domains, achieving strong performance with fewer parameters on image classification, face verification and style transfer.
 
-### [Synthesizing Images of Humans in Unseen Poses](http://openaccess.thecvf.com/content_cvpr_2018/papers/Balakrishnan_Synthesizing_Images_of_CVPR_2018_paper.pdf) by G. Balakrishnan, A. Zhao, A. Dalca, F. Durand at CVPR 2018.
+### [Synthesizing Images of Humans in Unseen Poses](http://openaccess.thecvf.com/content_cvpr_2018/papers/Balakrishnan_Synthesizing_Images_of_CVPR_2018_paper.pdf) by G. Balakrishnan, A. Zhao, A. Dalca, F. Durand.
 #### Figure:
 <img src="figures/Balakrishnan18cvpr.png" width="600" height="400" />
 
 #### Abstract:
 We address the computational problem of novel human pose synthesis. `Given an image of a person and a desired pose, we produce a depiction of that person in that pose, retaining the appearance of both the person and background.` We present a modular generative neural network that synthesizes unseen poses using training pairs of images and poses taken from human action videos. Our network separates a scene into different body part and background layers, moves body parts to new locations and refines their appearances, and composites the new foreground with a hole-filled background. These subtasks, implemented with separate modules, are trained jointly using only a single target image as a supervised label. We use an adversarial discriminator to force our network to synthesize realistic details conditioned on pose. We demonstrate image synthesis results on three action classes: golf, yoga/workouts and tennis, and show that our method produces accurate results within action classes as well as across action classes. Given a sequence of desired poses, we also produce coherent videos of actions.tions with shift-based modules for improved CIFAR10 and CIFAR100 accuracy using 60% fewer parameters; we additionally demonstrate the operation’s resilience to parameter reduction on ImageNet, outperforming ResNet family members. `We finally show the shift operation’s applicability across domains, achieving strong performance with fewer parameters on image classification, face verification and style transfer.`
 
-### [Image Generation from Scene Graphs](http://openaccess.thecvf.com/content_cvpr_2018/papers/Johnson_Image_Generation_From_CVPR_2018_paper.pdf) by J. Johnson, A. Gupta, L. Fei-Fei at CVPR 2018.
+### [Image Generation from Scene Graphs](http://openaccess.thecvf.com/content_cvpr_2018/papers/Johnson_Image_Generation_From_CVPR_2018_paper.pdf) by J. Johnson, A. Gupta, L. Fei-Fei.
 #### Figure:
 <img src="figures/Johnson18cvpr.png" width="550" height="500" />
 
 #### Abstract:
 To truly understand the visual world our models should be able not only to recognize images but also generate them. To this end, there has been exciting recent progress on generating images from natural language descriptions. These methods give stunning results on limited domains such as descriptions of birds or flowers, but struggle to faithfully reproduce complex sentences with many objects and relationships. To overcome this limitation we propose a method for generating images from scene graphs, enabling explicitly reasoning about objects and their relationships. Our model uses graph convolution to process input graphs, computes a scene layout by predicting bounding boxes and segmentation masks for objects, and converts the layout to an image with a cascaded refinement network. The network is trained adversarially against a pair of discriminators to ensure realistic outputs. We validate our approach on Visual Genome and COCO-Stuff, where qualitative results, ablations, and user studies demonstrate our method’s ability to generate complex images with multiple objects.
 
-### [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) by A. Kundu, Y. Li, J. Rehg at CVPR 2018.
+### [3D-RCNN: Instance-level 3D Object Reconstruction via Render-and-Compare](http://openaccess.thecvf.com/content_cvpr_2018/papers/Kundu_3D-RCNN_Instance-Level_3D_CVPR_2018_paper.pdf) by A. Kundu, Y. Li, J. Rehg.
 #### Figure:
-<img src="figures/Kundu18cvpr.png" width="800" height="600" />
+<img src="figures/Kundu18cvpr.png" width="850" height="600" />
 
 #### Abstract:
 We present a fast inverse-graphics framework for instance-level 3D scene understanding. `We train a deep convolutional network that learns to map image regions to the full 3D shape and pose of all object instances in the image.` Our method produces a compact 3D representation of the scene, which can be readily used for applications like autonomous driving. Many traditional 2D vision outputs, like instance segmentations and depth-maps, can be obtained by simply rendering our output 3D scene model. We exploit class-specific shape priors by learning a low dimensional shape-space from collections of CAD models. We present novel representations of shape and pose, that strive towards better 3D equivariance and generalization. In order to exploit rich supervisory signals in the form of 2D annotations like segmentation, we propose a differentiable Render-and-Compare loss that allows 3D shape and pose to be learned with 2D supervision. `We evaluate our method on the challenging real-world datasets of Pascal3D+ and KITTI, where we achieve state-of-the-art results.`
 
+### [Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Fast_and_Furious_CVPR_2018_paper.pdf) by W. Luo, B. Yang, R. Urtasun.
+#### Figure:
+<img src="figures/WLuo18cvpr.png" width="800" height="800" />
 
+#### Abstract:
+`In this paper we propose a novel deep neural network that is able to jointly reason about 3D detection, tracking and motion forecasting given data captured by a 3D sensor.` By jointly reasoning about these tasks, our holistic approach is more robust to occlusion as well as sparse data at range. Our approach performs 3D convolutions across space and time over a bird’s eye view representation of the 3D world, which is very efficient in terms of both memory and computation. `Our experiments on a new very large scale dataset captured in several north american cities, show that we can outperform the state-of-the-art by a large margin. Importantly, by sharing computation we can perform all tasks in as little as 30 ms.`
 
